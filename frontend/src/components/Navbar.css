@@ -1,0 +1,59 @@
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #474066;
+}
+.main-navbar {
+  padding: 0 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo p {
+  margin-left: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-profile img {
+  transform: scale(110%);
+  cursor: pointer;
+}
+
+.user-profile p {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.avatar-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.flag{
+  position: absolute;
+  bottom:35px;
+}

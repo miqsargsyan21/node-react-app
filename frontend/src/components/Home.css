@@ -1,0 +1,15 @@
+.home-container {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  flex-direction: column;
+  overflow: auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.home-container h1 {
+  font-size: 30px;
+}
